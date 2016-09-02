@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/settings" >
+        
+    <PreferenceCategory
+        android:title="@string/wallpaper">
+        
+        <CheckBoxPreference 
+            android:key="@string/key_touch_wall"
+            android:title="@string/enable_touch_wall"
+            android:summary="@string/enable_touch_wall_summary"
+            android:defaultValue="true" />
+        <CheckBoxPreference 
+            android:key="@string/key_use_small_wall_images"
+            android:title="@string/use_small_images"
+            android:defaultValue="true" />
+        <ListPreference
+            android:key="@string/key_max_num_of_wall_images"
+            android:title="@string/max_num_of_wall_images"
+            android:summary="@string/max_num_of_wall_images_summary"
+            android:entries="@array/numbers_words"
+            android:entryValues="@array/numbers_figures" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/screen_saver">
+        
+        <CheckBoxPreference 
+            android:key="@string/key_touch_screen"
+            android:title="@string/enable_touch_screen"
+            android:summary="@string/enable_touch_screen_summary"
+            android:defaultValue="true" />
+        <CheckBoxPreference 
+            android:key="@string/key_use_small_screen_images"
+            android:title="@string/use_small_images"
+            android:defaultValue="true" />
+        <ListPreference
+            android:key="@string/key_screen_image_speed"
+            android:title="@string/screen_image_speed"
+            android:entries="@array/speeds_words"
+            android:entryValues="@array/speeds_figures" />
+        <ListPreference
+            android:key="@string/key_max_num_of_screen_images"
+            android:title="@string/max_num_of_screen_images"
+            android:summary="@string/max_num_of_screen_images_summary"
+            android:entries="@array/numbers_words"
+            android:entryValues="@array/numbers_figures" />
+        <ListPreference
+            android:key="@string/key_min_battery_level"
+            android:title="@string/min_battery_level"
+            android:summary="@string/min_battery_level_summary"
+            android:entries="@array/levels_words"
+            android:entryValues="@array/levels_figures" />
+    </PreferenceCategory>
+</PreferenceScreen>

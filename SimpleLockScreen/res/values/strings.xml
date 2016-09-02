@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Simple Lock Screen</string>
+    
+    <string name="instructions">click to unlock</string>
+    <string name="unlock">UNLOCK</string>
+
+</resources>

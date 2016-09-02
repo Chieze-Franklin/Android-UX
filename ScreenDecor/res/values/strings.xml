@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Karabow Screen Decor</string>
+    <string name="close">Close</string>
+    <string name="description">Karabow screen decor</string>
+    <string name="enable_touch_screen">Can pause animation</string>
+    <string name="enable_touch_screen_summary">Choose to make the screen saver animation pause/resume with the tap of a finger; available in kitkat (version 4.4) and above</string>
+    <string name="enable_touch_wall">Interactive wallpaper</string>
+    <string name="enable_touch_wall_summary">Choose to make the wallpaper respond to user interactions like the drag of a finger</string>
+    <string name="invalid_input">Please enter a valid number</string>
+    <string name="key_max_num_of_screen_images">key_max_num_of_screen_images</string>
+    <string name="key_max_num_of_wall_images">key_max_num_of_wall_images</string>
+    <string name="key_min_battery_level">key_min_battery_level</string>
+    <string name="key_touch_screen">key_touch_screen</string>
+    <string name="key_touch_wall">key_touch_wall</string>
+    <string name="key_use_small_screen_images">key_screen_image_size</string>
+    <string name="key_screen_image_speed">key_screen_image_speed</string>
+    <string name="key_use_small_wall_images">key_size</string>
+    <string name="max_num_of_screen_images">Maximum number of images</string>
+    <string name="max_num_of_screen_images_summary">Choose the maximum number of images to show on screen saver</string>
+    <string name="max_num_of_wall_images">Maximum number of images</string>
+    <string name="max_num_of_wall_images_summary">Choose the maximum number of images to show on wallpaper</string>
+    <string name="min_battery_level">Minimum battery level</string>
+    <string name="min_battery_level_summary">Animation may not start automatically if your battery is below this level</string>
+    <string name="pause_anim">Tap to Pause Animation</string>
+    <string name="resume_anim">Tap to Resume Animation</string>
+    <string name="screen_image_speed">Set speed of images</string>
+    <string name="screen_saver">Karabow Screen Saver</string>
+    <string name="set_screen">Set Karabow Screen Saver</string>
+    <string name="set_wall">Set Karabow Wallpaper</string>
+    <string name="settings">Settings</string>
+    <string name="use_small_images">Use small images</string>
+    <string name="wallpaper">Karabow Wallpaper</string>
+
+</resources>
